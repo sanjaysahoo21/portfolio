@@ -267,6 +267,15 @@ body {
     width: 10rem;
     height: 10rem;
 }
+.mongodb-img {
+    filter: blur(1rem);
+}
+.reactjs-img {
+    filter: blur(1rem);
+}
+.nodejs-img {
+    filter: blur(1rem);
+}
 .skill-left {
     animation: skillCarsdsAnimationLeft 2s ease-in-out forwards;
     animation-timeline: view();
@@ -441,6 +450,9 @@ body {
     padding: 1rem 3rem;
     border-radius: 10rem;
     font-weight: bold;
+}
+.learn-more-button:hover {
+    cursor: pointer;
 }
 /*java container*/
 #java-container {

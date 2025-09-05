@@ -11,43 +11,51 @@ const cardsInformationLeft = [
     {
         image: "./assets/images/java.png",
         title: "JAVA",
+        classList: "java-img",
     },
     {
         image: "./assets/images/html.png",
         title: "HTML",
+        classList: "html-img",
     },
     {
         image: "./assets/images/css.png",
         title: "CSS",
+        classList: "css-img",
     },
     {
         image: "./assets/images/javascript.png",
         title: "JavaScript",
+        classList: "js-img",
     },
 ];
 const cardsInformationRight = [
     {
         image: "./assets/images/sql.png",
         title: "SQL",
+        classList: "sql-img",
     },
     {
         image: "./assets/images/mongodb.png",
         title: "MongoDB",
+        classList: "mongodb-img",
     },
     {
         image: "./assets/images/reactjs.png",
         title: "React JS",
+        classList: "reactjs-img",
     },
     {
         image: "./assets/images/nodejs.png",
         title: "Node JS",
+        classList: "nodejs-img",
     }
 ];
 const cardsLeft = cardsInformationLeft.map((ele) => {
     return `
         <div class="skill skill-left">
             <div class="skill-img">
-                <img src="${ele.image}" alt="java">
+                <img src="${ele.image}" alt="" class="${ele.classList}"/>
             </div>
             <div class="skill-caption">
                 <p>${ele.title}</p>
@@ -59,7 +67,7 @@ const cardsRight = cardsInformationRight.map((ele) => {
     return `
         <div class="skill skill-right">
             <div class="skill-img">
-                <img src="${ele.image}" alt="java">
+                <img src="${ele.image}" alt="" class="${ele.classList}"/>
             </div>
             <div class="skill-caption">
                 <p>${ele.title}</p>
