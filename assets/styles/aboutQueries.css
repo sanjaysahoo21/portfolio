@@ -1,0 +1,226 @@
+@media (max-width: 1024px) {
+    .about-content p {
+        font-size: 1.8rem;
+    }
+    .college-image-inner {
+        width: 60%;
+        height: 80%;
+    }
+    .internship-image {
+        width: 55%;
+        height: 80%;
+    }
+    .internship-content p {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .about-hero-items {
+        height: 70rem;
+    }
+    .about-content p {
+        font-size: 1.6rem;
+    }
+    .about-name p {
+        font-size: 4rem;
+    }
+    .about-role-item {
+        font-size: 1.6rem;
+    }
+    .college-info {
+        height: 55rem;
+    }
+    .college-image-inner {
+        width: 70%;
+        height: 80%;
+    }
+    .college-name p {
+        font-size: 2.5rem;
+    }
+    .college-branch p {
+        font-size: 1.8rem;
+    }
+    .college-year p {
+        font-size: 1.8rem;
+    }
+    .college-location p {
+        font-size: 1.8rem;
+    }
+    .college-cgpa h2 {
+        font-size: 1.8rem;
+    }
+    .college-cgpa p {
+        font-size: 4.5rem;
+    }
+    .college-percentage h2 {
+        font-size: 1.8rem;
+    }
+    .college-percentage p {
+        font-size: 4.5rem;
+    }
+    .internship-section {
+        height: 55rem;
+    }
+    .internship-heading p {
+        font-size: 3rem;
+    }
+    .internship-image {
+        width: 55%;
+        height: 70%;
+    }
+    .internship-content p {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 647px) {
+    .about-name p {
+        font-size: 3.5rem;
+    }
+    .college-info {
+        height: 50rem;
+    }
+    .college-image-inner {
+        width: 70%;
+        height: 70%;
+    }
+    .college-name p {
+        font-size: 2.2rem;
+    }
+    .college-branch p {
+        font-size: 1.8rem;
+    }
+    .college-year p {
+        font-size: 1.6rem;
+    }
+    .college-location p {
+        font-size: 1.6rem;
+    }
+    .college-cgpa h2 {
+        font-size: 1.6rem;
+    }
+    .college-cgpa p {
+        font-size: 4rem;
+    }
+    .college-percentage h2 {
+        font-size: 1.6rem;
+    }
+    .college-percentage p {
+        font-size: 4rem;
+    }
+    .internship-section {
+        height: 50rem;
+    }
+    .internship-heading p {
+        font-size: 3rem;
+    }
+    .internship-image {
+        width: 55%;
+        height: 60%;
+    }
+    .internship-content p {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 560px) {
+    .about-hero-items {
+        height: 60rem;
+    }
+    .about-role-item {
+        font-size: 1.4rem;
+    }
+    .college-info {
+        height: 40rem;
+    }
+    .college-name p {
+        font-size: 1.8rem;
+    }
+    .college-branch p {
+        font-size: 1.8rem;
+    }
+    .college-year p {
+        font-size: 1.4rem;
+    }
+    .college-location p {
+        font-size: 1.4rem;
+    }
+    .college-cgpa h2 {
+        font-size: 1.4rem;
+    }
+    .college-cgpa p {
+        font-size: 3.5rem;
+    }
+    .college-percentage h2 {
+        font-size: 1.4rem;
+    }
+    .college-percentage p {
+        font-size: 3.5rem;
+    }
+    .internship-section-inner {
+        gap: 2rem;
+    }
+    .internship-section {
+        height: 40rem;
+    }
+    .internship-heading p {
+        font-size: 2.5rem;
+    }
+    .internship-content p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 506px) {
+    .about-role-item {
+        font-size: 1.2rem;
+    }
+    .about-content p {
+        font-size: 1.4rem;
+    }
+    .internship-content p {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 472px) {
+    .about-role-item {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 435px) {
+    .about-profile {
+        width: 25rem;
+        height: 25rem;
+    }
+    .college-info {
+        height: 80rem;
+    }
+    .college-info-items {
+        flex-direction: column;
+    }
+    .internship-section {
+        height: 60rem;
+    }
+    .internship-items {
+        flex-direction: column;
+    }
+    .internship-image {
+        width: 70%;
+        height: 80%;
+    }
+    .internship-content p {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 374px) {
+    .about-name p {
+        font-size: 3rem;
+    }
+    .about-roles {
+        gap: 4rem;
+    }
+    .internship-section-inner {
+        gap: 2rem;
+    }
+    .internship-image {
+        width: 70%;
+        height: 85%;
+    }
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/queries.css">
+    <title>Portfolio-Home</title>
+</head>
+<body>
+<!--top two buttons-->
+    <section class="admin-buttons">
+        <div class="admin-intro">
+            <div class="admin-name">Sanjay Eathakottu</div>
+            <div class="admin-resume">
+                <a href="./assets/Resume.pdf" download="sanjay's_Resume.pdf" >Download Resume</a>
+            </div>
+        </div>
+    </section>
+<!--navbar one-->
+    <div class="navbar">
+        <ul class="nav-items">
+            <li class="nav-link js-nav-items active">
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="nav-link js-nav-items">
+                <a href="./pages/about.html">About</a>
+            </li>
+            <li class="nav-link js-nav-items">
+                <a href="./pages/contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+<!--navbar two-->
+    <div class="navbar-two">
+        <ul class="nav-icons">
+            <li class="nav-icon-link js-nav-items active">
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="nav-icon-link js-nav-items">
+                <a href="./pages/about.html">About</a>
+            </li>
+            <li class="nav-icon-link js-nav-items">
+                <a href="./pages/contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+<!--hero section-->
+    <section class="hero-section">
+        <div class="hero-items">
+            <div class="welcome-button">Welcome!!...</div>
+            <div class="hero-heading">
+                Building Scalable Web Solutions, <br>
+                    One Line of Code at a Time!
+            </div>
+            <div class="hero-caption">
+                "I love transforming complex problems into simple, elegant digital solutions. <br>
+                    From sleek user interfaces to scalable systems, I create experiences that balance performance, reliability, and design."
+            </div>
+            <div class="resume-caption">
+                <div class="admin-resume second-res-button">
+                    <a href="./assets/Resume.pdf" download="sanjay's_Resume.pdf" >Download Resume</a>
+                </div>
+                <p>My Resume here!!</p>
+            </div>
+        </div>
+    </section>
+    <div class="hori-line-home"></div>
+<!--skills section-->
+    <div class="skills-heading">My Skills Here</div>
+    <section class="skills-section">
+        <div class="skill-coloumn-left js-cards-left">
+<!--            <div class="skill">-->
+<!--                <div class="skill-img">-->
+<!--                    <img src="./images/mongodb.png" alt="java">-->
+<!--                </div>-->
+<!--                <div class="skill-caption">-->
+<!--                    <p>Java</p>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+        <div class="skill-coloumn-right js-cards-right">
+<!--            <div class="skill">-->
+<!--                <div class="skill-img">-->
+<!--                    <img src="" alt="html">-->
+<!--                </div>-->
+<!--                <div class="skill-caption">-->
+<!--                    <p>HTML</p>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </section>
+    <section class="projects-section">
+        <div class="project-heading">My Projects Here</div>
+        <div class="toogle-buttons">
+            <div class="frontend-button js-t-button js-projects-active">Frontend</div>
+            <div class="java-button js-t-button">Java</div>
+        </div>
+        <div class="projects-container">
+            <div id="frontend-container" class="project-content active">
+                <div class="oryx-card frontend-card project-card-ani-left">
+                    <div class="oryx-logo">
+                        <img src="./assets/images/Logo-oryx.png" alt="oryx"/>
+                    </div>
+                    <div class="oryx-caption">
+                        <p>Oryx</p>
+                    </div>
+                </div>
+                <div class="oryx-content frontend-card project-card-ani-right">
+                    <div class="oryx-content-inner">
+                        Oryx is a comprehensive platform designed to facilitate skill exchange, mentorship, and
+                        career development. The platform connects learners with mentors and peers, providing
+                        tools for collaborative learning and professional growth through AI-powered career
+                        assistance and job platform integration.
+                    </div>
+                    <div>
+                        <button class="learn-more-button">view</button>
+                    </div>
+                </div>
+<!--                <span id="horizontal-line"></span>-->
+                <div class="rps-content frontend-card project-card-ani-left">
+                    <div class="rps-content-inner">
+                        Rock Paper Scissors is a classic game that can be played with a computer or two players.
+                        The game is played by two players, each choosing from a rock, paper, or scissors.
+                        The winner is determined by a simple rule: rock beats scissors, scissors beats paper, and paper
+                        beats rock.
+                    </div>
+                    <div>
+                        <button class="learn-more-button">view</button>
+                    </div>
+                </div>
+                <div class="rps-card frontend-card project-card-ani-right">
+                    <div class="rps-logo">
+                        <img src="./assets/images/rps.png" alt="rps"/>
+                    </div>
+                    <div class="rps-caption">
+                        <p>Rock Paper Scissors</p>
+                    </div>
+                </div>
+            </div>
+            <div id="java-container" class="project-content">
+                <h1>Projects will Come Soon</h1>
+            </div>
+        </div>
+    </section>
+    <section class="carousel-section">
+        <div class="carousel">
+            <div class="certificate-heading">My Certificates Here</div>
+            <div class="carousel-item carousel-item-active">
+                <img class="java-certificate certificate-image" src="./assets/images/javaFunCf.png" alt="java"/>
+            </div>
+            <div class="carousel-item">
+                <img class="python-certificate certificate-image" src="./assets/images/pythonCf.png" alt="python"/>
+            </div>
+            <div class="carousel-item">
+                <img class="html-certificat certificate-image" src="./assets/images/htmlCf.png" alt="html"/>
+            </div>
+            <div class="carousel-item">
+                <img class="css-certificate certificate-image" src="./assets/images/cssCf.png" alt="css"/>
+            </div>
+            <div class="carousel-item">
+                <img class="js-certificate certificate-image" src="./assets/images/javaScriptCf.png" alt="javaScript"/>
+            </div>
+            <div class="carousel-arrow-buttons">
+                <div class="carousel-prevbutton arrowbutton">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="carousel-nextbutton arrowbutton">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer class="footer-section">
+    <div class="footer-content">
+        <p><span>Made with Passion</span> | Developed by Sanjay Eathakottu</p>
+    </div>
+</footer>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
