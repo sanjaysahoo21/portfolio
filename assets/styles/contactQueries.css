@@ -53,3 +53,8 @@
         row-gap: 2rem;
     }
 }
+@media (max-width:328px) {
+    .contact-main-details {
+        width: 70%;
+    }
+}
